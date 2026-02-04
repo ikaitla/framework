@@ -6,14 +6,14 @@ package framework
  *
  * How to Override:
  * go build -ldflags "\
- * -X 'github.com/emyassine/ikaitla/framework.EngineName=Ikaitla Engine' \
- * -X 'github.com/emyassine/ikaitla/framework.EngineVersion=2026.02.03' \
- * -X 'github.com/emyassine/ikaitla/framework.EngineTagline=Composable multi-profile CLI runtime' \
- * -X 'github.com/emyassine/ikaitla/framework.RepoModulePath=github.com/emyassine/ikaitla' \
- * -X 'github.com/emyassine/ikaitla/framework.ProfilePackageImportPath=github.com/emyassine/ikaitla/framework/profile' \
- * -X 'github.com/emyassine/ikaitla/framework.CmdProfilesImportBase=github.com/emyassine/ikaitla/cmd' \
- * -X 'github.com/emyassine/ikaitla/framework.ProfileWiringOutputFile=generated.go' \
- * -X 'github.com/emyassine/ikaitla/framework.MainRegistryOutputFile=generated_profiles.go' \
+ * -X 'github.com/ikaitla/framework.EngineName=Ikaitla Engine' \
+ * -X 'github.com/ikaitla/framework.EngineVersion=2026.02.03' \
+ * -X 'github.com/ikaitla/framework.EngineTagline=Composable multi-profile CLI runtime' \
+ * -X 'github.com/ikaitla/framework.RepoModulePath=github.com/emyassine/ikaitla' \
+ * -X 'github.com/ikaitla/framework.ProfilePackageImportPath=github.com/ikaitla/framework/profile' \
+ * -X 'github.com/ikaitla/framework.CmdProfilesImportBase=github.com/emyassine/ikaitla/cmd' \
+ * -X 'github.com/ikaitla/framework.ProfileWiringOutputFile=generated.go' \
+ * -X 'github.com/ikaitla/framework.MainRegistryOutputFile=generated_profiles.go' \
  * " -o bin/ikaitla .
  */
 
