@@ -1,4 +1,4 @@
-module github.com/emyassine/ikaitla
+module github.com/ikaitla
 
 go 1.24
 
