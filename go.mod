@@ -1,4 +1,4 @@
-module github.com/ikaitla
+module github.com/ikaitla/framework
 
 go 1.24
 

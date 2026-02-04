@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ikaitla/framework/framework"
+	"github.com/ikaitla/framework"
 )
 
 func main() {
