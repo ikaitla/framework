@@ -17,5 +17,5 @@ import (
 	_ "github.com/ikaitla/framework/ui/theme"
 )
 
-// Touch is a no-op to make the package feel intentional.
+// Touch is a no-op to make the package be intentional.
 func Touch() {}
