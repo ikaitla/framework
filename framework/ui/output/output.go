@@ -7,8 +7,8 @@ import (
 	"os"
 	"sync"
 
-	"github.com/emyassine/ikaitla/framework/ui/term"
-	"github.com/emyassine/ikaitla/framework/ui/theme"
+	"github.com/ikaitla/framework/ui/term"
+	"github.com/ikaitla/framework/ui/theme"
 )
 
 type Output struct {
