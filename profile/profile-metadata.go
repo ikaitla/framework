@@ -10,7 +10,8 @@ import (
 
 // ProfileMetadata defines all configuration for a profile
 type ProfileMetadata struct {
-	Name        string
+    Author        string
+    Name        string
 	Version     string
 	Description string
 	LongDesc    string

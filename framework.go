@@ -1,21 +1,15 @@
+// Package framework provides core infrastructure for Ikaitla multi-profile CLI
 package framework
 
-/**
- * Defaults:
- * -> can be overridden at build time
- * -> with -ldflags -X)
- *
- *  How to Override:
- *
- *  go build -ldflags "\
- *  -X 'github.com/ikaitla/framework.EngineName=Ikaitla Engine' \
- *  -X 'github.com/ikaitla/framework.EngineVersion=2026.02.03' \
- *  -X 'github.com/ikaitla/framework.EngineTagline=Composable multi-profile CLI runtime' \
- *  " -o bin/ikaitla .
- */
-
-var (
+const (
 	EngineName    = "Ikaitla Engine"
-	EngineVersion = "2026.02.03"
-	EngineTagline = "Composable multi-profile CLI runtime"
+	EngineVersion = "2026.02.04"
+	EngineTagline = "Multi-profile CLI framework with auto-discovery"
+
+	ProfileWiringOutputFile = "generated.go"
+	MainRegistryOutputFile  = "generated_profiles.go"
+
+	RepoModulePath             = ""
+	ProfilePackageImportPath   = ""
+	CmdProfilesImportBase      = ""
 )

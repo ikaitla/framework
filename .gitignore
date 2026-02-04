@@ -1,23 +1,27 @@
 # Binaries
-/bin/
-/dist/
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
+bin/
 
-# Test files
+# Test binary
 *.test
+
+# Output of the go coverage tool
 *.out
-coverage.html
+
+# Go workspace file
+go.work
+go.work.sum
 
 # Dependencies
 vendor/
 
 # IDE
-.idea/
 .vscode/
+.idea/
 *.swp
 *.swo
 *~
@@ -25,11 +29,3 @@ vendor/
 # OS
 .DS_Store
 Thumbs.db
-
-# Generated code
-generated.go
-generated_*.go
-generated_*.go
-
-# elmouya
-elmouya*
