@@ -3,10 +3,10 @@ package ui
 import (
 	"fmt"
 
-	"github.com/emyassine/ikaitla/framework/ui/components"
-	"github.com/emyassine/ikaitla/framework/ui/output"
-	"github.com/emyassine/ikaitla/framework/ui/term"
-	"github.com/emyassine/ikaitla/framework/ui/theme"
+	"github.com/ikaitla/framework/ui/components"
+	"github.com/ikaitla/framework/ui/output"
+	"github.com/ikaitla/framework/ui/term"
+	"github.com/ikaitla/framework/ui/theme"
 )
 
 var defaultOut = output.New()
