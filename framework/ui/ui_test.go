@@ -3,8 +3,8 @@ package ui_test
 import (
 	"testing"
 
-	"github.com/emyassine/ikaitla/framework/ui"
-	"github.com/emyassine/ikaitla/framework/ui/theme"
+	"github.com/ikaitla/framework/ui"
+	"github.com/ikaitla/framework/ui/theme"
 )
 
 func TestColorize_NoColor(t *testing.T) {
