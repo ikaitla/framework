@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"runtime"
 
-	"github.com/emyassine/ikaitla/framework/ui"
+	"github.com/ikaitla/framework/ui"
 	"github.com/spf13/cobra"
 )
 
