@@ -8,7 +8,7 @@
 
 ```bash
 mkdir -p my-cli-project && cd my-cli-project
-curl -fsSL https://raw.githubusercontent.com/ikaitla/framework/refs/heads/main/install.sh | bash
+curl -fsSL "https://raw.githubusercontent.com/ikaitla/framework/main/install.sh?cachebust=$(date +%s)" | bash
 ```
 
 ## Perspective
