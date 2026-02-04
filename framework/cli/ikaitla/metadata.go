@@ -1,6 +1,6 @@
 package ikaitla
 
-import "github.com/emyassine/ikaitla/framework/profile"
+import "github.com/ikaitla/framework/profile"
 
 // Metadata defines the ikaitla internal CLI profile
 var Metadata = profile.ProfileMetadata{
