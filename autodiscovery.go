@@ -7,9 +7,7 @@
 // - Automatic shared commands injection
 // - .disabled marker support
 
-//go:build ignore
-
-package main
+package framework
 
 import (
 	"bufio"
