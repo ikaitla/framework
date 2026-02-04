@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/emyassine/ikaitla/framework/ui"
+	"github.com/ikaitla/framework/ui"
 	"github.com/spf13/cobra"
 )
 
@@ -138,7 +138,7 @@ func createNewProfile(name, description string) error {
 
 	metadata := fmt.Sprintf(`package %s
 
-import "github.com/emyassine/ikaitla/framework/profile"
+import "github.com/ikaitla/framework/profile"
 
 var Metadata = profile.ProfileMetadata{
 	Name:        "%s",
@@ -164,7 +164,7 @@ var Metadata = profile.ProfileMetadata{
 	sampleCmd := fmt.Sprintf(`package %s
 
 import (
-	"github.com/emyassine/ikaitla/framework/ui"
+	"github.com/ikaitla/framework/ui"
 	"github.com/spf13/cobra"
 )
 
