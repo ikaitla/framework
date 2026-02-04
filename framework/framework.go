@@ -8,9 +8,9 @@ package framework
  *  How to Override:
  *
  *  go build -ldflags "\
- *  -X 'github.com/emyassine/ikaitla/framework.EngineName=Ikaitla Engine' \
- *  -X 'github.com/emyassine/ikaitla/framework.EngineVersion=2026.02.03' \
- *  -X 'github.com/emyassine/ikaitla/framework.EngineTagline=Composable multi-profile CLI runtime' \
+ *  -X 'github.com/ikaitla/framework.EngineName=Ikaitla Engine' \
+ *  -X 'github.com/ikaitla/framework.EngineVersion=2026.02.03' \
+ *  -X 'github.com/ikaitla/framework.EngineTagline=Composable multi-profile CLI runtime' \
  *  " -o bin/ikaitla .
  */
 
