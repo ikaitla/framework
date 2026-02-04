@@ -3,8 +3,8 @@ package components
 import (
 	"strings"
 
-	"github.com/emyassine/ikaitla/framework/ui/output"
-	"github.com/emyassine/ikaitla/framework/ui/theme"
+	"github.com/ikaitla/framework/ui/output"
+	"github.com/ikaitla/framework/ui/theme"
 )
 
 type Table struct {
