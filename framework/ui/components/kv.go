@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/emyassine/ikaitla/framework/ui/output"
-	"github.com/emyassine/ikaitla/framework/ui/theme"
+	"github.com/ikaitla/framework/ui/output"
+	"github.com/ikaitla/framework/ui/theme"
 )
 
 func RenderKeyValue(out *output.Output, pairs map[string]string) {
