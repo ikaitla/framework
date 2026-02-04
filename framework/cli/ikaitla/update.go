@@ -5,7 +5,7 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/emyassine/ikaitla/framework/ui"
+	"github.com/ikaitla/framework/ui"
 	"github.com/spf13/cobra"
 )
 
