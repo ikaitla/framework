@@ -26,7 +26,7 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/emyassine/ikaitla/framework"
+	"github.com/ikaitla/framework"
 )
 
 func main() {
