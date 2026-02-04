@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/emyassine/ikaitla/framework/ui/theme"
+	"github.com/ikaitla/framework/ui/theme"
 	"github.com/spf13/cobra"
 )
 
