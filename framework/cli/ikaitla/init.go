@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/emyassine/ikaitla/framework/ui"
+	"github.com/ikaitla/framework/ui"
 	"github.com/spf13/cobra"
 )
 
@@ -125,7 +125,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/emyassine/ikaitla/framework"
+	"github.com/ikaitla/framework"
 )
 
 func main() {
@@ -168,7 +168,7 @@ all: build
 
 generate:
 	@echo "Generating profile wiring..."
-	@go run github.com/emyassine/ikaitla/framework/autodiscovery
+	@go run github.com/ikaitla/framework/autodiscovery
 
 build: generate
 	@echo "Building CLI..."
@@ -242,7 +242,7 @@ func createProfile(dir, profileName string) error {
 	// metadata.go
 	metadata := fmt.Sprintf(`package %s
 
-import "github.com/emyassine/ikaitla/framework/profile"
+import "github.com/ikaitla/framework/profile"
 
 var Metadata = profile.ProfileMetadata{
 	Name:        "%s",
@@ -267,7 +267,7 @@ var Metadata = profile.ProfileMetadata{
 	hello := fmt.Sprintf(`package %s
 
 import (
-	"github.com/emyassine/ikaitla/framework/ui"
+	"github.com/ikaitla/framework/ui"
 	"github.com/spf13/cobra"
 )
 
