@@ -4,6 +4,13 @@
   <img src="art/ikaitla-blue-dual-mode.png" alt="Ikaitla Engine - Multi-Profile CLI System" width="400">
 </p>
 
+## Get Ikaitla
+
+```bash
+mkdir -p my-cli-project && cd my-cli-project
+curl -fsSL https://raw.githubusercontent.com/ikaitla/framework/refs/heads/main/install.sh | bash
+```
+
 ## Perspective
 
 1. One binary with infinite profiles.
